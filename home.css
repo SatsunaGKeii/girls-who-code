@@ -1,1 +1,14 @@
-
+<style>
+#home{
+  text-align:left;
+}
+#aboutMe{
+  text-align:middle;
+}
+#randomStuff {
+  text-align:600px;
+}
+#other{
+  text-align:right;
+}
+</style>
