@@ -16,5 +16,11 @@
         margin: 0;
         padding: 0;
     }
-   
+    li a {
+        display: block;
+    }
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
   </style>
