@@ -1,28 +1,4 @@
 <style>
-    #home {
-      
-    }
-    #aboutMe {
-     
-    }
-    #randomStuff {
-      
-    }
-    #other {
-      
-    }
-    ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    li a {
-        display: block;
-    }
-    li a:hover {
-        background-color: #555;
-        color: white;
-    }
     h {
         color:red;
     }
