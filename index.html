@@ -3,11 +3,13 @@
 <header>
   <title>My Site</title>
   <style>
-   ul {
+ul {
     list-style-type: none;
     margin: 0;
-    width: 50px;
-    border: 1px solid;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
 }
 
 li a {
@@ -16,14 +18,16 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
 }
-li:last-child {
-    border-bottom: none;
-}
 
 li {
     text-align: center;
     border-bottom: 1px solid #555;
 }
+
+li:last-child {
+    border-bottom: none;
+}
+
 li a.active {
     background-color: #4CAF50;
     color: white;
