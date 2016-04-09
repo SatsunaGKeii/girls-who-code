@@ -5,28 +5,37 @@
   <style>
   ul {
     list-style-type: none;
+    /*remove bullet points and such*/
     margin: 0;
+    /*left an right*/
     padding: 0;
+    /*top and bottom ish*/
     overflow: hidden;
+    /*a whole line*/
     background-color: #dddddd;
+    /*color of the bar*/
 }
 li {
-    float: left;
+    float: right;
+    /*if the words are on the left/right side of the bar*/
 }
 
 a {
     display: block;
+    /*clamp them together to form a block so the whole thing can be clickd*/
     padding: 8px;
+    /*the height and size of the block*/
     background-color: #dddddd;
+    /*the color*/
 }
-ul {
-  background-color:gray;
+li a:hover{
+  background-color:black;
 }
   </style>
 </header>
 <body>
  <ul>
-  <li><a href="">Homee</a></li>
+  <li><a href="">Home</a></li>
   <li><a href="">About Me</a></li>
   <li><a href="">Random Stuff #1</a></li>
   <li><a href="">other</a></li>
