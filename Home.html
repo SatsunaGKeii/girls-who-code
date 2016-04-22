@@ -2,4 +2,50 @@
 <header>
 </header>
 <body>
+   ul {
+    list-style-type: none;
+    /*remove bullet points and such*/
+    margin: 0;
+    /*left an right*/
+    padding: 0;
+    /*top and bottom ish*/
+    overflow: hidden;
+    /*a whole line*/
+    background-color: #e0e0eb;
+    /*color of the bar*/
+}
+li {
+    float: right;
+    /*if the words are on the left/right side of the bar*/
+}
+
+a {
+    display: block;
+    /*clamp them together to form a block so the whole thing can be clickd*/
+    padding: 8px;
+    /*the height and size of the block*/
+    background-color: #e0e0eb;
+    /*the color*/
+}
+li a:hover{
+  /*when hover*/
+  background-color:white;
+}
+.active {
+  /*when click*/
+    background-color: green;
+}
+li {
+    border-right: 1px solid black;
+}
+
+  </style>
+</header>
+<body>
+ <ul>
+  <li><a href="">About Me</a></li>
+  <li><a href="">Random Stuff #1</a></li>
+  <li><a href="">other</a></li>
+  <div id=home><li><a href="">Home</a></li></div>
+</ul>
 </body>
