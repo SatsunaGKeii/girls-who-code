@@ -1,72 +1,41 @@
-<!DOCTYPE HTML>
-<header>
+<!DOCTYPE html>
+<html>
+<head>
  <title>About Me</title>
- <style>
-   ul {
+<style>
+ul {
     list-style-type: none;
-    /*remove bullet points and such*/
     margin: 0;
-    /*left or right*/
-    padding: none;
-    /*top and bottom ish*/
+    padding: 0;
     overflow: hidden;
-    /*a whole line*/
-    background-color: gray;
-    /*color of the bar*/
-    border-color:white;
+    background-color: #333;
 }
+
 li {
     float: left;
-    /*if the words are on the left/right side of the bar*/
-}
-a {
-    text-decoration:inherit;
-    display: block;
-    /*clamp them together to form a block so the whole thing can be clickd*/
-    //padding: 8px;
-    /*the height and size of the block*/
-    /*the color*/
-    color: black;
-    font-size: x-large;
-    font-weight: bolder;
-    font-family: cursive
-}
-li a:hover{
-  /*when hover*/
-  background-color:white;
-}
-li {
-    border-right: 2px solid black;
-}
-h1 {
- text-align:center;
- color:white;
-}
-body {
- background-image:url("http://www.hdwallpaperup.com/wp-content/uploads/2014/12/Flowers-At-Sunset-2560x1600.jpg");
-}
-#current {
- background-color: #DBF10F;
-}
-h2 {
- color:white;
- text-align:center;
-}
 }
 
-  </style>
-</header>
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
 <body>
-<h1>CRSIM</h1>
-<h2>Completely Random Site I Made</h2>
- <ul>
-  <li><a href="Home.html">&nbsp;&nbsp;Home</a></li>
-  <li><div id="current"><a href="AboutMe.html">   About Me   </a></div></li>
-  <li><a href="RandomStuff.html">   Random Stuff #1   </a></li>
-  <li><a href="Other.html">   Other   </a></li>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 
- <h1>Hi, Nice to meet you.</h1>
- <h2>My Name Is Sophie. I am 12 years old. I am in seventh Grade. My favorite hobby is to do my own stuff.</h2>
- <br><h2>My favorite animal is a dog. I like animals that are NOT insects. Because insects just creep me out completely. </h2>
 </body>
+</html>
