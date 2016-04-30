@@ -1,72 +1,40 @@
-<!DOCTYPE HTML>
-<header>
- <title>About Me</title>
-</header>
-<body>
- <script>
- 
- <style>
-   ul {
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
     list-style-type: none;
-    /*remove bullet points and such*/
     margin: 0;
-    /*left or right*/
     padding: 0;
-    /*top and bottom ish*/
     overflow: hidden;
-    /*a whole line*/
-    background-color: gray;
-    /*color of the bar*/
-}
-li {
-    float: right;
-    /*if the words are on the left/right side of the bar*/
-}
-a {
-    text-decoration:inherit;
-    display: block;
-    /*clamp them together to form a block so the whole thing can be clickd*/
-    padding: 8px;
-    /*the height and size of the block*/
-    /*the color*/
-    color: black;
-    font-size: x-large;
-    font-weight: bolder;
-    font-family: cursive
-}
-li a:hover{
-  /*when hover*/
-  background-color:white;
-}
-li {
-    border-right: 2px solid black;
-}
-h1 {
- text-align:center;
- color:white;
-}
-body {
- background-image:url("http://www.hdwallpaperup.com/wp-content/uploads/2014/12/Flowers-At-Sunset-2560x1600.jpg");
-}
-#current {
- background-color: #DBF10F;
-}
-h2 {
- color:white;
- text-align:center;
-}
+    background-color: #333;
 }
 
-  </style>
-</header>
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
 <body>
- <ul>
-  <li><a href="Home.html"></a></li>
-  <li><a href="AboutMe.html">About Me</a></li>
-  <li><div id="current"><a href="RandomStuff.html">Random Stuff #1</a></div></li>
-  <li><a href="Other.html"></a></li>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
 </ul>
 
- <h1>Hi, Nice to meet you. <br> This is home page.</h1>
- 
 </body>
+</html>
