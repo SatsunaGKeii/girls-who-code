@@ -55,16 +55,10 @@ h2 {
  <br>I like animals, but not insects. They just disgust me. 
  </h2>
  <div id="animal"><img src="https://45.media.tumblr.com/d8bf55bc646c7c5c66c33360c97ba935/tumblr_nxmyhlOfVc1snzbj4o1_500.gif"></div>
-<img id="myImage" onclick="changeImage()" src="https://45.media.tumblr.com/d8bf55bc646c7c5c66c33360c97ba935/tumblr_nxmyhlOfVc1snzbj4o1_500.gif" width="100" height="180">
-
 <script>
-function changeImage() {
-    var image = document.getElementById('myImage');
-    if (image.src.match("https://45.media.tumblr.com/d8bf55bc646c7c5c66c33360c97ba935/tumblr_nxmyhlOfVc1snzbj4o1_500.gif")) {
-        image.src = "http://i.imgur.com/O1QP7H0.gif?1";
-    } else {
-    image.src = "https://45.media.tumblr.com/d8bf55bc646c7c5c66c33360c97ba935/tumblr_nxmyhlOfVc1snzbj4o1_500.gif";
-    }
+function myFunction() {
+    document.getElementById("animal").src = "http://i.imgur.com/O1QP7H0.gif?1";
 }
+</script>
 </body>
 </html>
