@@ -56,13 +56,16 @@ h2 {
 <center><img src="http://www.2hotradio.com/uploads/1/2/2/5/12259713/376852_orig.png" onclick="myFunction()" width=100px></center>
 <h1>Texts:</h1>
 <div id="input"><center><p id="print"></p></center></div>
-
+<div id="img"><img src="http://hiapp.pk/img/hi-text2.png"></div>
+<button onclick="pic()">Click</button>
 <script>
+function pic(){
+    document.getElementById("img").src="http://betanews.com/wp-content/uploads/2014/08/byebye.jpg";
+}
+}
 function myFunction() {
     var time = Date();
     document.getElementById("print").innerHTML = document.getElementById("print").innerHTML+"<br>"+document.getElementById("input").value + "<br>"+time+"<br>";
-
-    
 }
 </script>
 </body>
