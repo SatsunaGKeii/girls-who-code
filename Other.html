@@ -59,7 +59,10 @@ h2 {
 
 <script>
 function myFunction() {
-    document.getElementById("print").innerHTML = document.getElementById("print").innerHTML+"<br>"+document.getElementById("input").value;
+    var time = Date();
+    document.getElementById("print").innerHTML = document.getElementById("print").innerHTML+"<br>"+document.getElementById("input").value + "<br>"+time;
+
+    
 }
 </script>
 </body>
